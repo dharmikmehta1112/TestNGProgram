@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Read XLSX">
+<!--  <groups>
+		<run>
+			<include name = "regression"></include>
+		</run>
+	</groups> -->
+
+	<test name="Data Provider">
+		<classes>
+			<class name="TestNGTest.TestArgsOrParams" />
+		</classes>
+	</test>
+</suite>

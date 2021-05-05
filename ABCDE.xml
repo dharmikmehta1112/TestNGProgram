@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Regression">
+    <classes>
+<!--  <class name="TestNGTest.FirstTest"/> -->
+      <class name="TestNGTest.B"/>
+      <class name="TestNGTest.A"/>
+      <class name="TestNGTest.C"/>
+      <class name="TestNGTest.D"/>
+      <class name="TestNGTest.E"/>
+    </classes>
+  </test> <!-- Regression -->
+</suite> <!-- Suite -->
